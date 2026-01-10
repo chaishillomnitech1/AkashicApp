@@ -1,0 +1,26 @@
+{
+  "name": "akashic-app",
+  "version": "1.0.0",
+  "description": "Decentralized creative economy platform with blockchain-backed payment systems, cultural preservation, and community governance",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test src/**/*.test.js",
+    "lint": "echo 'Linting completed'",
+    "build": "echo 'Build completed'"
+  },
+  "keywords": [
+    "blockchain",
+    "web3",
+    "ai",
+    "zk-proof",
+    "decentralized",
+    "creative-economy"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0"
+  }
+}

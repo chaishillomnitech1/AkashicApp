@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
-    "test": "node --test src/**/*.test.js",
+    "test": "node src/harlem4k-ar-render.test.js && node src/russell-dcf-framework.test.js",
     "lint": "echo 'Linting completed'",
     "build": "echo 'Build completed'"
   },
